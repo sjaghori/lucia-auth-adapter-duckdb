@@ -10,13 +10,23 @@
     "release": "pnpm run build && changeset publish",
     "lint": "tsc"
   },
+  "keywords": [
+    "lucia",
+    "auth",
+    "duckdb",
+    "duckdb-async",
+    "authentication",
+    "adapter",
+    "sql"
+  ],
   "devDependencies": {
     "@changesets/cli": "^2.27.5",
     "tsup": "^8.1.0",
     "typescript": "^5.4.5"
   },
-  "dependencies": {
-    "lucia": "^3.2.0"
+  "peerDependencies": {
+    "duckdb-async": "^1.x",
+    "lucia": "3.x"
   },
   "publishConfig": {
     "access": "public"
