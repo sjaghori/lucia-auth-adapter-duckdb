@@ -1,5 +1,5 @@
 {
-  "name": "lucia-auth-adapter-duckdb",
+  "name": "@sjaghori/lucia-auth-adapter-duckdb",
   "version": "0.0.0-alpha-1",
   "license": "MIT",
   "main": "dist/index.js",
